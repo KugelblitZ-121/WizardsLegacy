@@ -29,7 +29,7 @@ const Section4: React.FC = () => {
 
   return (
     <div
-      className="flex flex-col py-10 gap-y-2 md:gap-y-4 xl:gap-y-10 bg-fit bg-center bg-cover border border-x-0 border-y-8 border-secondary-100"
+      className="flex flex-col py-10 gap-y-2 md:gap-y-4 xl:gap-y-10 bg-fit bg-center bg-cover border border-x-0 border-y-8 border-secondary-100 bg-secondary-100"
       style={{
         backgroundImage: `url(${background})`,
       }}
