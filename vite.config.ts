@@ -5,4 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.PNG"], // Include PNG files as assets
+  base: "/WizardsLegacy/",
 });
